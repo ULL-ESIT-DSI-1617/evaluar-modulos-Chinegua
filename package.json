@@ -1,5 +1,5 @@
 {
-  "name": "switchsmell",
+  "name": "@chinegua/ull-shape",
   "version": "1.0.0",
   "description": "ejemplos de switch smell.",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ULL-ESIT-DSI-1617/evalua-strategy-pattern.git"
+    "url": "git+ssh://git@github.com/ULL-ESIT-DSI-1617/evalua-strategy-pattern.git"
   },
   "keywords": [
     "js",
@@ -18,10 +18,14 @@
   "bugs": {
     "url": "https://github.com/ULL-ESIT-DSI-1617/evalua-strategy-pattern/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/ULL-ESIT-DSI-1617/evalua-strategy-pattern#readme",
   "dependencies": {
     "gulp-shell": "^0.6.3",
     "mocha": "^2.3.3",
     "should": "^7.1.1"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   }
 }
